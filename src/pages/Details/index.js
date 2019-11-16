@@ -67,14 +67,12 @@ class Details extends Component {
 
           <div className="form-group div-details">
             <div className="col-12">
-              <span className="col-1" />
               <label htmlFor="input-id" className="col-sm-2 col-form-label font-weight-bold">ID</label>
               <input type="text" id="input-id" className="col-sm-2" value={userSelected ? userSelected.data.id : ""} disabled/>
               <label htmlFor="input-login" className="col-sm-2 col-form-label font-weight-bold">Login</label>
-              <input type="text" id="input-login" className="col-sm-5" value={userSelected ? userSelected.data.login: ""} disabled/>
+              <input type="text" id="input-login" className="col-sm-6" value={userSelected ? userSelected.data.login: ""} disabled/>
             </div>
             <div className="col-12">
-              <span className="col-1" />
               <label htmlFor="input-login-create" className="col-sm-2 col-form-label font-weight-bold">Created At</label>
               <input type="text" id="input-login-create" className="col-sm-2" value={userSelected ? moment(userSelected.data.created_at).format("DD/MM/YYYY") : ""} disabled/>
               <label htmlFor="input-login-url" className="col-sm-2 col-form-label font-weight-bold">URL</label>
