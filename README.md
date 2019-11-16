@@ -1,3 +1,9 @@
+First at all run:
+
+### `nvm use`
+
+on the project folder to check if you have the node version for this project and use it;
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
